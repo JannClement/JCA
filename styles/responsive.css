@@ -13,12 +13,12 @@
   }
   
   .outside-name{
-    font-size: 2rem;
+    font-size: 15px;
   }
   @keyframes enlargeText {
     0% { font-size: 2rem;}
     20% { font-size: 2rem;}
-    40% { font-size: 1rem}
-    100% { font-size: 1rem}
+    40% { font-size: 15px}
+    100% { font-size: 15px}
   }
 }
