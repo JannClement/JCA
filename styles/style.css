@@ -1,0 +1,145 @@
+body{
+  font-family: var(--poppins);
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+  cursor: none;
+  scroll-behavior: smooth;
+}
+#hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 20px 0px;
+  gap: 5rem;
+}
+nav a{
+  color: var(--textcolor);
+  font-size: var(--paragraph);
+  text-decoration: none;
+  padding: 0px 10px;
+}
+nav a:hover{
+  opacity: 0.5;
+}
+.quote{
+  text-align: center;
+}
+#projects{
+  margin-top: 15px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  gap: 30px;
+}
+.box-container{
+  display: flex;
+  max-width: 59rem;
+  gap: 25px;
+}
+.box1{
+  display: flex;
+  justify-content: start;
+  flex-direction: column ;
+}
+.border{
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px 40px 60px;
+  margin-bottom: 15px;
+  gap: 2rem;
+  border: 0.5px var(--bordercolor) solid;
+  border-radius: 4px;
+}
+
+.study{
+  display: flex;
+  gap: 1.5rem;
+}
+.study-container{
+  display: flex;
+  flex-direction: column;
+}
+.casestudy{
+  display: flex;
+  flex-direction: column;
+}
+.img-container {
+  width: 100%; 
+  max-width: 680px; 
+  height: auto; 
+  aspect-ratio: 20 / 9; 
+  overflow: hidden; 
+}
+.img2 {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  cursor: none;
+}
+.img-details{
+  padding: 20px;
+  border: 0.5px solid var(--bordercolor);
+}
+.footer-details{
+  color: var(--linecolor);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img3{
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+}
+.fa-brands{
+  font-size: 30px;
+  letter-spacing: 15px;
+  cursor: none;
+  text-decoration: none;
+  color: var(--linecolor);
+}
+.fa-brands:hover,.img2:hover, nav a:hover,.skills span:hover{
+  opacity: 0.7;
+  transition: 0.2s;
+}
+#about{
+  padding: 30px 0px;
+}
+.a-container{
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  gap: 50px;
+}
+.sec-1,.sec-2{
+  padding: 0px 20px;
+  width: 400px;
+}
+.about-me{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.img4{
+  width: 100%;
+  height: auto;
+}
+.sec-2container{
+  margin-bottom: 60px;
+}
+.achive{
+  padding: 10px 20px;
+}
+.edu{
+  display: flex;
+  gap: 40px;
+}
+.namecolor {
+  background: -webkit-linear-gradient(right,#4493C2, #73BF45,#F9C124, #E13333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
