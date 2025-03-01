@@ -11,7 +11,9 @@
     gap: 25px;
     text-align: center;
   }
-  
+  .apps{
+    text-align: center;
+  }
   .outside-name{
     font-size: 15px;
   }
