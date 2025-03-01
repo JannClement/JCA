@@ -94,14 +94,14 @@
   font-family: var(--ps2p);
 }
 .inside-name {
-  font-size: 2rem; 
+  font-size: 15px; 
 }
 
 @keyframes enlargeText {
-  0% { font-size: 15rem;}
-  20% { font-size: 15rem;}
-  40% { font-size: 2rem;}
-  100% { font-size: 2rem;
+  0% { font-size: 7rem;}
+  20% { font-size: 7rem;}
+  40% { font-size: 15px;}
+  100% { font-size: 15px;
   display: none;}
 }
 .outside {
