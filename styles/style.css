@@ -117,12 +117,12 @@ nav a:hover{
 }
 .sec-1,.sec-2{
   padding: 0px 20px;
-  width: 350px;
 }
 .about-me{
   display: flex;
   flex-direction: column;
   gap: 40px;
+  max-width: 550px;
 }
 .img4{
   width: 100%;
