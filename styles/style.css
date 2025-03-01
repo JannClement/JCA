@@ -10,7 +10,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 45px 0px;
   gap: 5rem;
 }
 nav a{
